@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "Task For BE 26"
+  },
+  "web": {
+    "prefork": false,
+    "port": 3000
+  },
+  "log": {
+    "level": 6
+  },
+  "database": {
+    "username": "adminroot",
+    "password": "8878332#",
+    "host": "localhost",
+    "port": 3310,
+    "name": "backend",
+    "pool": {
+      "idle": 10,
+      "max": 100,
+      "lifetime": 300
+    }
+  }
+}
