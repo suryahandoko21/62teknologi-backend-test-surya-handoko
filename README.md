@@ -5,6 +5,8 @@
 - eksekusi file backend.sql untuk membuat table di database backend 
 - masuk ke direktori aplikasi dan jalankan command go run cmd/web/main.go
 
+- POSTMAN Api : https://api.postman.com/collections/4131954-6e21cb0a-563a-4be7-988c-4c1d875c900a?access_key=PMAT-01HJ525KTC88QP8DC77VKQ4M9T
+
 - API public
     - register new user
       POST    : localhost:3000/api/users 
@@ -54,7 +56,7 @@
                 "limit": 10,
                 "offset": 0
             } 
-    - PUT localhost:3000/api/businesses/update/83de2991-b038-4e27-b505-b4f7fc79d18f ("83de2991-b038-4e27-b505-b4f7fc79d18f is UUID")
+    - PUT :  localhost:3000/api/businesses/update/83de2991-b038-4e27-b505-b4f7fc79d18f ("83de2991-b038-4e27-b505-b4f7fc79d18f is UUID")
       type    : json
       payload : {
                 "location": "Pabrik Lemari",
